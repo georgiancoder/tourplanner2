@@ -1,0 +1,1780 @@
+
+div.wrapper{
+	width: 1130px;
+	margin: auto;
+	position: relative;
+}
+
+div.clear{
+	clear: both;
+}
+
+header{
+	position: relative;
+}
+
+div.siteTitle{
+	height: 130px;
+	position: relative;
+}
+
+header div.siteTitle div.lang{
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	height: 130px;
+	align-items: center;
+	padding-left: 30px;
+	font-size: 12px;
+}
+header div.siteTitle div.lang a{
+	text-decoration: none;
+	color: #616161;
+	margin-right: 5px;
+}
+header div.siteTitle div.lang a.active{
+	color: #FFFFFF;
+}
+
+header h1.title{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 2;
+	color: #fff3f3;
+	height: 130px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+}
+header a.title{
+	text-decoration: none;
+}
+header h1.title span.red{
+	color: #d61b1b;
+}
+
+header div.soc{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	padding-right: 30px;
+	z-index: 3;
+}
+header div.soc a{
+	color: #1e1e24;
+	width: 26px;
+	height: 26px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+header div.bg{
+	width: 100%;
+	height: 130px;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: rgba(166,17,17,0.8);
+}
+nav ul.mainmenu{
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+nav ul.mainmenu li{
+	list-style-type: none;
+	position: relative;
+	transition: 0.3s;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 15px;
+	cursor: pointer;
+}
+nav ul.mainmenu li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+nav ul.mainmenu li:hover{
+	background-color: #FFFFFF;
+}
+nav ul.mainmenu li:hover a{
+	color: #d61b1b;
+}
+nav ul.mainmenu li:hover ul.submenu{
+	opacity: 1;
+}
+
+nav ul.mainmenu li ul.submenu{
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+	width: 100%;
+	top: 70px;
+	left: 0;
+	z-index: 5;
+	transition: 0.3s;
+	opacity: 0;
+}
+
+nav ul.mainmenu li ul.submenu li{
+	list-style-type: none;
+	line-height: 38px;
+	transition: 0.3s;
+	height: 38px;
+}
+
+nav ul.mainmenu li ul.submenu li:hover{
+	background-color: #686868;
+}
+nav ul.mainmenu li ul.submenu li:hover a{
+	color: #FFFFFF;
+}
+nav ul.mainmenu li ul.submenu li a{
+	font-size: 11px;
+	color: #565656;
+	transition: 0.3s;
+}
+
+header img.wellcomeimg{
+	width: 100%;
+	height: 680px;
+	margin-top: -200px;
+	position: relative;
+	z-index: -1;
+}
+
+header h2.welcometext{
+	font-size: 50px;
+	color: rgba(255,255,255,0.4);
+	padding: 15px 30px;
+	border: 3px solid rgba(255,255,255,0.4);
+}
+
+header div.slider{
+	position: relative;
+}
+
+header div.slider article{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	margin-bottom: 30px;
+}
+
+main section.tours div.wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+main section.tours div.wrapper article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+}
+main section.tours div.wrapper article div{
+	width: 147px;
+  	height: 147px;
+	border: 2px solid rgb( 194, 194, 194 );
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+main section.tours div.wrapper article:nth-child(1) div{
+	background-image: url('../images/dailyred.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.3s;
+}
+main section.tours div.wrapper article:nth-child(2) div{
+	background-image: url('../images/mountaingreen.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.3s;
+}
+main section.tours div.wrapper article:nth-child(3) div{
+	background-image: url('../images/wineyellow.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.3s;
+}
+main section.tours div.wrapper article:nth-child(4) div{
+	background-image: url('../images/winterskiblue.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: 0.3s;
+}
+
+main section.tours div.wrapper article:nth-child(1) div:hover{
+	background-color: #d61b1b;
+	border-color: #d61b1b;
+	background-image: url('../images/dailywhite.png');
+}
+
+main section.tours div.wrapper article:nth-child(2) div:hover{
+	background-color: #839726;
+	border-color: #839726;
+	background-image: url('../images/mountainwhite.png');
+}
+
+main section.tours div.wrapper article:nth-child(3) div:hover{
+	background-color: #d6a52e;
+	border-color: #d6a52e;
+	background-image: url('../images/winewhite.png');
+}
+
+main section.tours div.wrapper article:nth-child(4) div:hover{ 
+    background-color: #1577db;     
+    border-color: #1577db;     
+    background-image: url('../images/winterskiwhite.png'); 
+}
+
+main section.tours div.wrapper article h2{
+	font-size: 35px;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+main section.tours div.wrapper article:nth-child(1) h2{
+	color: #d61b1b;
+}
+
+main section.tours div.wrapper article:nth-child(2) h2{
+	color: #839726;
+}
+main section.tours div.wrapper article:nth-child(3) h2{
+	color: #d6a52e;
+}
+main section.tours div.wrapper article:nth-child(4) h2{
+	color: #1577db;
+}
+main section.tours div.wrapper article span{
+	font-size: 20px;
+	color: #414141;
+	letter-spacing: 10px;
+}
+
+main section.tours div.welcometext{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #bebebe;
+}
+
+main section.tours div.welcometext h2{
+	color: #888888;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+main section.tours div.welcometext p{
+	color: #4b4b4b;
+	font-size: 17px;
+	text-align: center;
+}
+
+main section.topTour{
+	width: 100%;
+	height: 280px;
+	display: flex;
+	flex-direction: row;
+}
+main section.topTour div.view{
+	width: 65%;
+	background-image: url('../images/tusheti.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main section.topTour div.desc{
+	width: 35%;
+	background-color: #d61b1b;
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+main section.topTour div.desc h2{
+	margin: 0;
+	padding: 0;
+	font-size: 47.94px;
+	color: #FFFFFF;
+}
+main section.topTour div.desc p{
+	color: #FFFFFF;
+	font-size: 17px;
+	width: 390px;
+}
+main section.topTour div.desc a{
+	color: #fb7575;
+	font-size: 19.74px;
+	text-decoration: none;
+	padding: 15px 30px;
+	border: 1px solid #fb7575;
+	border-radius: 50px;
+	display: block;
+	float: left;
+}
+
+main section.hottours{
+	padding-top: 30px;
+}
+main section.hottours h2{
+	text-align: center;
+	color: #d61b1b;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+main section.hottours div.wrapper{
+	padding-bottom: 0;
+	justify-content: flex-start;
+}
+main section.hottours div.wrapper article{
+	width: 255px;
+	height: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+main section.hottours div.wrapper article a{
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 10px 0px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+main section.hottours div.wrapper article:nth-child(1){
+	background-image: url('../images/vardzia.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main section.hottours div.wrapper article:nth-child(2){
+	background-image: url('../images/tusheti2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main section.hottours div.wrapper article:nth-child(3){
+	background-image: url('../images/mtsketa.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main section.hottours div.wrapper article:nth-child(4){
+	background-image: url('../images/racha.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+footer section.subscribe{
+	background-color: #d61b1b;
+	height: 80px;
+	width: 100%;
+}
+footer section.subscribe div.wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 80px;
+}
+footer section.subscribe div.wrapper h2{
+	font-size: 26px;
+	color: #ffffff;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+footer section.subscribe div.wrapper #mail{
+	width: 419px;
+  	height: 36px;
+  	border: none;
+  	background-color: rgba(255,255,255,0.2);
+  	outline: none;
+  	font-size: 15px;
+  	color: #FFFFFF;
+  	padding-left: 15px;
+  	box-sizing: border-box;
+  	margin-right: 10px;
+  	margin-bottom: 0;
+}
+footer section.subscribe div.wrapper #subscbtn{
+	height: 36px;
+	padding: 10px 15px;
+	border: none;
+	background-color: #b40f0f;
+	font-size: 13.58px;
+	color: #FFFFFF;
+}
+
+footer section.mailUs{
+	width: 100%;
+	height: 360px;
+	background-image: url('../images/mailusbg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer section.mailUs div.wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 360px;
+}
+
+footer section.mailUs div.wrapper div.contactdetails{
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	width: 350px;
+	box-sizing: border-box;
+	margin-top: 75px;
+}
+
+footer section.mailUs div.wrapper div.contactdetails span.tell{
+	display: block;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+footer section.mailUs div.wrapper div.contactdetails span.tell i{
+	margin-right: 10px;
+	padding: 5px 10px;
+	border-right: 1px solid #FFFFFF;
+	margin-bottom: 30px;
+}
+footer section.mailUs div.wrapper div.contactdetails a{
+	color: #FFFFFF;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+}
+footer section.mailUs div.wrapper div.contactdetails a i{
+	margin-right: 10px;
+	padding: 5px 10px;
+	border-right: 1px solid #FFFFFF;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+footer section.mailUs div.wrapper div.mailsendform{
+	width: 680px;
+	margin-top: 75px;
+}
+footer section.mailUs div.wrapper div.mailsendform input[type=text], input[type=mail]{
+	width: 320px;
+	height: 36px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 0 15px;
+	background-color: rgba(255,255,255,0.2);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+footer section.mailUs div.wrapper div.mailsendform input:first-child{
+	margin-right: 20px;
+}
+
+footer section.mailUs div.wrapper div.mailsendform textarea{
+	width: 663px;
+	height: 105px;
+	border: 0;
+	resize: none;
+	outline: none;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,0.2);
+	color: #FFFFFF;
+}
+footer section.mailUs div.wrapper div.mailsendform #send{
+	float: right;
+	margin-right: 17px;
+	display: block;
+	margin-top: 5px;
+	border: none;
+	padding: 5px 15px;
+	background-color: #d61b1b;
+	color: #FFFFFF;
+	font-size: 19.62px;
+	outline: none;
+	cursor: pointer;
+}
+
+footer section.footermenu{
+	width: 100%;
+	height: 60px;
+	background-color: #d61b1b;
+}
+
+footer section.footermenu ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 60px;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+footer section.footermenu ul li{
+	list-style-type: none;
+	margin: 0 20px;
+}
+footer section.footermenu ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+footer section.copy{
+	width: 100%;
+	height: 40px;
+	background-color: #b90909;
+}
+footer section.copy span{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+/* about us */
+
+header div.innerslider{
+
+}
+
+header div.innerslider img.wellcomeimg{
+	width: 100%;
+	height: 380px;
+}
+footer div.hr{
+	width: 100%;
+	height: 1px;
+	background-color: #ec4f4f;
+}
+main section.about{
+	padding-top: 30px;
+	margin-top: 30px;
+	border-top: 1px solid #bebebe;
+	width: 100%;
+}
+main h2.pagetitle{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 25.65px;
+	color: #888888;
+}
+main section.about p{
+	font-size: 17px;
+	color: #4b4b4b;
+	text-align: center;	
+}
+
+main section.hottours div.wrapper{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+main section.hottours div.wrapper article{
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+main section.hottours div.wrapper article:first-child{
+	margin-left: 0;
+}
+main section.hottours div.wrapper article:nth-child(0n+4){
+	margin-right: 0;
+}
+main section.hottours div.wrapper article:nth-child(0n+5){
+	margin-left: 0;
+}
+
+
+/* cars for rent */
+
+main section.carsrent{
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+
+main section.carsrent p{
+	font-size: 17px;
+	color: #4b4b4b;
+	text-align: center;
+}
+
+main section.carsrent div.carscat{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main section.carsrent div.carscat article{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 120px;
+	height: 60px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+main section.carsrent div.carscat article h3{
+	font-size: 13.58px;
+	color: #888888;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -50px;
+}
+
+main section.carsrent div.carscat article:nth-child(1){
+	background-image: url('../images/sedani.png');
+}
+main section.carsrent div.carscat article:nth-child(2){
+	background-image: url('../images/miniven.png');
+}
+main section.carsrent div.carscat article:nth-child(3){
+	background-image: url('../images/minibus.png');
+}
+main section.carsrent div.carscat article:nth-child(4){
+	background-image: url('../images/bus.png');
+}
+
+main section.carsrent div.carscat article:nth-child(1):hover{
+	background-image: url('../images/sedanred.png');
+}
+main section.carsrent div.carscat article:nth-child(2):hover{
+	background-image: url('../images/minivenred.png');
+}
+main section.carsrent div.carscat article:nth-child(3):hover{
+	background-image: url('../images/minibusred.png');
+}
+main section.carsrent div.carscat article:nth-child(4):hover{
+	background-image: url('../images/busred.png');
+}
+
+main section.carsrent div.prices{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+main section.carsrent div.prices article{
+	width: 230px;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+main section.carsrent div.prices article img{
+	width: 200px;
+	height: 100px;
+	padding: 15px;
+	background-color: #efefef;
+}
+main section.carsrent div.prices article h3{
+	font-size: 13.58px;
+	color: #888888;
+	width: 120px;
+	text-align: center;
+}
+
+/* transfer */ 
+main section.transfer{
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+
+main section.transfer section.scheme{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 130px;
+	align-items: center;
+}
+
+main section.transfer section.scheme div.plane{
+	width: 130px;
+	height: 130px;
+	border: 1px solid rgb( 215, 215, 215 );
+	border-radius: 50%;
+	background-image: url('../images/plane.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-right: 10px;
+}
+main section.transfer section.scheme div.bus{
+	width: 405px;
+	height: 40px;
+	border-bottom: 1px dashed rgb( 194, 194, 194 );
+	background-image: url('../images/buss.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 10px;
+}
+main section.transfer section.scheme div.hotel{
+	width: 130px;
+	height: 130px;
+	border: 1px solid rgb( 215, 215, 215 );
+	border-radius: 50%;
+	background-image: url('../images/hotel.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+main section.transfer p{
+	margin-top: 60px;
+	font-size: 17px;
+	color: #4b4b4b;
+	text-align: center;	
+}
+main section.transfer table.pricetable{
+	width: 950px;
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-bottom: 8px solid #e3e3e3;
+}
+main section.transfer table.pricetable thead th{
+	height: 40px;
+	background-color: #e3e3e3;
+	font-size: 17px;
+	color: #4b4b4b;
+	text-align: left;
+	padding: 0 30px;
+}
+main section.transfer table.pricetable tbody td{
+	height: 56px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #c2c2c1;
+	text-align: left;
+	padding: 0 30px;
+	font-size: 17px;
+	color: #4b4b4b;
+}
+main section.transfer table.pricetable tbody td:nth-child(1){
+	width: 20%;
+}
+main section.transfer table.pricetable tbody td:nth-child(2){
+	width: 40%;
+}
+main section.transfer table.pricetable tbody td:nth-child(3){
+	width: 10%;
+	border-left: 1px solid #c2c2c1;
+}
+main section.transfer table.pricetable tbody td:nth-child(4){
+	width: 10%;
+	border-left: 1px solid #c2c2c1;
+}
+main section.transfer table.pricetable tbody td:nth-child(5){
+	width: 10%;
+	border-left: 1px solid #c2c2c1;
+}
+main section.transfer table.pricetable tbody td:nth-child(6){
+	width: 10%;
+	border-left: 1px solid #c2c2c1;
+}
+main section.transfer div.reservation{
+	width: 950px;
+	margin: auto;
+}
+main section.transfer div.reservation h4{
+	font-size: 21px;
+	color: #4b4b4b;
+}
+main section.transfer div.reservation table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main section.transfer div.reservation table tr td{
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+main section.transfer div.reservation table tr:last-child td{
+	text-align: right;
+}
+
+main section.transfer div.reservation table tr td:nth-child(1){
+	width: 30%;
+	padding-left: 0;
+}
+main section.transfer div.reservation table tr td:nth-child(2){
+	width: 30%;
+}
+main section.transfer div.reservation table tr td:nth-child(3){
+	width: 15%;
+}
+main section.transfer div.reservation table tr td:nth-child(4){
+	width: 15%;
+}
+main section.transfer div.reservation table tr td:nth-child(5){
+	width: 10%;
+	padding-right: 0;
+}
+
+main section.transfer div.reservation input, select{
+	height: 40px;
+	border: 1px solid #b7b7b7;
+	width: 100%;
+	outline: 0;
+	color: #a8a8a8;
+	font-size: 17px;
+}
+main section.transfer div.reservation label{
+	display: block;
+	cursor: pointer;
+	font-size: 13px;
+	color: #4b4b4b;
+	margin-bottom: 5px;
+}
+main section.transfer div.reservation textarea{
+	width: 100%;
+	height: 70px;
+	resize: none;
+	outline: none;
+	color: #a8a8a8;
+	font-size: 17px;
+}
+main section.transfer div.reservation input[type=reset]{
+	width: initial;
+	border: 0;
+	background-color: transparent;
+	font-size: 19.62px;
+	color: #a8a8a8;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+main section.transfer div.reservation input[type=button]{
+	width: initial;
+	border: 0;
+	background-color: #d61b1b;
+	color: #FFFFFF;
+	font-size: 19.62px;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+
+/* acomodation */
+
+main section.acomodation{
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+
+main section.acomodation p{
+	color: #4b4b4b;
+	font-size: 17px;
+	text-align: center;
+}
+main section.acomodation div.cities{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+main section.acomodation div.cities article{
+	width: 355px;
+	height: 190px;
+	overflow: hidden;
+	margin: 15px;
+	position: relative;
+}
+main section.acomodation div.cities article a{
+	text-decoration: none;
+	color: #828282;
+	font-size: 25.65px;
+	transition: 0.3s;
+}
+main section.acomodation div.cities article a:hover{
+	color: #FFFFFF;
+}
+main section.acomodation div.cities article a:hover h3{
+	background-color: #839726;
+}
+main section.acomodation div.cities article a h3{
+	position: absolute;
+	bottom: 0;
+	height: 55px;
+	width: 100%;
+	text-align: center;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	line-height: 55px;
+
+}
+main section.acomodation div.cities article:first-child{
+	margin-left: 0;
+}
+main section.acomodation div.cities article:nth-child(0n+3){
+	margin-right: 0;
+}
+main section.acomodation div.cities article:last-child{
+	margin-right: 0;
+}
+main section.acomodation div.cities article img{
+	width: 100%;
+}
+
+main section.acomodation div.hotels{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+main section.acomodation div.hotels article{
+	width: 50%;
+	height: 165px;
+	margin: 20px 0;
+}
+main section.acomodation div.hotels article img{
+	width: 255px;
+	height: 165px;
+	float: left;
+	margin-right: 15px;
+}
+
+main section.acomodation div.hotels article h3{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #d61b1b;
+}
+main section.acomodation div.hotels article p{
+	padding-right: 30px;
+	font-size: 14px;
+	color: #4b4b4b;
+	text-align: left;
+}
+main section.acomodation div.hotels article a.more{
+	font-size: 16.42px;
+	color: #9d9d9d;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+main section div.innertitle{
+	position: relative;
+	width: 100%;
+}
+
+main section div.innertitle h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 17.9px;
+	color: #414141;
+}
+main section div.innertitle a{
+	display: block;
+	position: absolute;
+	left: 0;
+	font-size: 17.9px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #cccccc;
+}
+main section.acomodation section.hotelinner h4.hotelname{
+	font-size: 31.33px;
+	color: #d61b1b;
+	text-transform: uppercase;
+	text-align: center;
+}
+main section.acomodation section.hotelinner article {
+	float: left;
+	margin-bottom: 30px;
+}
+main section.acomodation section.hotelinner article div.gallery{
+	width: 635px;
+	float: left;
+}
+main section.acomodation section.hotelinner article div.gallery div.main img{
+	width: 635px;
+	height: 390px;
+}
+main section.acomodation section.hotelinner article div.desc{
+	width: 495px;
+	float: right;
+}
+main section.acomodation section.hotelinner article div.gallery div.carousel{
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	margin-top: 30px;
+}
+main section.acomodation section.hotelinner article div.gallery div.carousel img{
+	width: 200px;
+	height: 120px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+main section article div.gallery div.bullets{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 60px;
+	align-items: center;
+}
+main section article div.gallery div.bullets span{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #cecece;
+	transition: 0.3s;
+	margin: 0 8px;
+	cursor: pointer;
+}
+main section article div.gallery div.bullets span:hover{
+	background-color: #d61b1b;
+}
+main section article div.gallery div.bullets span.active{
+	background-color: #d61b1b;
+}
+main section.acomodation section.hotelinner article div.desc{
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+main section.acomodation section.hotelinner article div.desc p{
+	font-size: 15px;
+	color: #4b4b4b;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+}
+main section.acomodation section.hotelinner article div.desc h4{
+	font-size: 13px;
+	color: #4b4b4b;
+	text-align: left;
+	text-transform: uppercase;
+}
+main section.acomodation section.hotelinner article div.desc ul{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+main section.acomodation section.hotelinner article div.desc ul li{
+	list-style-type: none;
+	font-size: 14px;
+	color: #4b4b4b;
+	padding-left: 15px;
+	line-height: 25px;
+	position: relative;
+}
+main section.acomodation section.hotelinner article div.desc ul li::before{
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: #c1c1c1;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 5px; 
+}
+main section.acomodation section.hotelinner article div.desc > input#reservation{
+	height: 60px;
+	border: none;
+	background-color: #839726;
+	font-size: 22px;
+	color: #FFFFFF;
+	padding: 20px 30px;
+	outline: 0;
+	cursor: pointer;
+}
+
+main section.acomodation section.hotelinner article div.reserv{
+	margin-bottom: 30px;
+	display: none;
+}
+main section.acomodation section.hotelinner article div.reserv h5{
+	font-size: 20px;
+	color: #d61b1b;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+main section.acomodation section.hotelinner article div.reserv form{
+	padding: 0;
+	margin: 30px 0 0 0;
+}
+main section.acomodation section.hotelinner article div.reserv label{
+	display: block;
+	font-size: 13px;
+	color: #4b4b4b;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+main section.acomodation section.hotelinner article div.reserv input{
+	height: 40px;
+	border: 1px solid rgb( 183, 183, 183 );
+	box-sizing: border-box;
+	outline: none;
+	width: 313px;
+	margin-bottom: 15px;
+}
+main section.acomodation section.hotelinner article div.reserv input#fname{
+	width: 435px;
+}
+main section.acomodation section.hotelinner article div.reserv input#captcha{
+	width: 135px;
+}
+main section.acomodation section.hotelinner article div.reserv textarea{
+	width: 435px;
+	height: 90px;
+	resize: none;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid rgb( 183, 183, 183 );
+	margin-bottom: 15px;
+}
+main section.acomodation section.hotelinner article div.reserv form img{
+	width: 135px;
+	height: 40px;
+	float: left;
+}
+
+
+
+/* contact */
+main section.contact{
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+main section.contact table.emailus{
+	width: 60%;
+	float: left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+main section.contact table.emailus td{
+	width: 50%;
+	padding: 10px;
+}
+main section.contact table.emailus input{
+	width: 100%;
+	height: 35px;
+	outline: 0;
+	border: 0;
+	background-color: #cccccc;
+	padding: 0 15px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+main section.contact table.emailus textarea{
+	width: 100%;
+	resize: none;
+	height: 105px;	
+	outline: 0;
+	border: 0;
+	background-color: #cccccc;
+	padding: 15px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+main section.contact table.emailus input[type=button]{
+	width: initial;
+	float: right;
+	background-color: #d61b1b;
+	font-size: 19.62px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+main section.contact article.info{
+	float: right;
+	width: 40%;
+	margin-top: 60px;
+	padding-top: 10px;
+	padding-left: 60px;
+	box-sizing: border-box;
+}
+main section.contact article.info span{
+	display: block;
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: #666666;
+}
+main section.contact article.info a{
+	margin-bottom: 50px;
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-size: 20px;
+}
+
+main section.mapplace{
+	padding: 10px 0;
+}
+main section.mapplace p#googleMap{
+	height: 335px;
+}
+
+/* gallery */
+main section.gallery{
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+main section.gallery article{
+	width: 350px;
+	height: 277px;
+	float: left;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../images/gallerybg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 10px;
+}
+main section.gallery article img{
+	width: 314px;
+	height: 231px;
+}
+main section.gallery article a{
+	text-decoration: none;
+    display: block;
+    font-size: 24.04px;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    width: calc(100% - 80px);
+}
+main section.gallery article div.title{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main section.gallery div.g{
+	margin-top: 30px;
+}
+main section.gallery div.g img{
+	width: 265px;
+	height: 180px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 18px;
+}
+main section.gallery div.g img:nth-child(4n+4){
+	margin-right: 0;
+}
+main section.gallery div.g img:first-child{
+	margin-left: 0;
+}
+main section.gallery div.g img:nth-child(4n+5){
+	margin-left: 0;
+}
+
+
+/* tours */
+main section.tourss{
+	padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(190, 190, 190);
+    width: 100%;
+}
+main section.tourss section.toursinner h4.tourname{
+	font-size: 31.33px;
+	color: #d61b1b;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+main section.tourss section.toursinner article{
+	margin-top: 30px;
+}
+main section.tourss section.toursinner article div.gallery{
+	width: 430px;
+	float: left;
+}
+main section.tourss section.toursinner article div.gallery div.main{
+	width: 430px;
+	height: 270px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+main section.tourss section.toursinner article div.gallery div.main img{
+	width: 430px;
+	height: 270px;
+}
+
+main section.tourss section.toursinner article div.gallery div.carousel{
+	width: 430px;
+	height: 276px;
+	overflow: hidden;
+}
+main section.tourss section.toursinner article div.gallery div.carousel a{
+	width: 200px;
+	height: 123px;
+	margin-right: 30px; 
+	margin-bottom: 30px;
+	float: left;
+}
+main section.tourss section.toursinner article div.gallery div.carousel img:nth-child(2n+2){
+	margin-right: 0;
+	cursor: pointer;
+}
+main section.tourss section.toursinner article div.gallery div.shareonfb{
+	margin-top: 20px;
+}
+main section.tourss section.toursinner article div.gallery div.shareonfb a{
+	font-size: 18px;
+	color: #d61b1b;
+	text-decoration: none;
+}
+main section.tourss section.toursinner article div.gallery div.shareonfb a i{
+	width: 40px;
+	height: 40px;
+	font-size: 23px;
+	color: #FFFFFF;
+	background-color: #d61b1b;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+main section.tourss section.toursinner article div.gallery div.shareonfb a:hover i{
+	background-color: #3b5998;
+}
+main section.tourss section.toursinner article div.desc{
+	float: right;
+	width: calc(100% - 430px);
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+main section.tourss section.toursinner article div.desc p{
+	font-size: 15px;
+	color: #4b4b4b;
+	padding: 0;
+	margin: 0;
+}
+
+main section.tourss section.toursinner article div.desc h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #d61b1b;
+	line-height: 30px;
+}
+main section.tourss section.toursinner article div.desc h4 i.timeico{
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/time.png');
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-right: 10px;
+}
+main section.tourss section.toursinner article div.desc h5{
+	font-size: 20px;
+	color: #839726;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	padding: 0;
+}
+
+main section.tourss section.toursinner article div.desc h5 i.durbindiico{
+	width: 31px;
+	height: 18px;
+	background-image: url('../images/durbindi.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+main section.tourss section.toursinner article div.desc ul.whatsee{
+	margin: 0;
+}
+main section.tourss section.toursinner article div.desc ul.whatsee li{
+	list-style-type: none;
+	font-size: 15px;
+	color: #4b4b4b;
+	margin-bottom: 15px;
+	position: relative;
+}
+main section.tourss section.toursinner article div.desc ul.whatsee li::before{
+	content: "";
+	width: 9px;
+	height: 11px;
+	background-image: url('../images/markergreen.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 2px;
+	left: -16px;
+}
+main section.tourss section.toursinner article div.desc h5.tourincludes{
+	font-size: 20px;
+	color: #d6a52e;
+}
+main section.tourss section.toursinner article div.desc h5.tourincludes i{
+	width: 30px;
+	height: 30px;
+	color: #FFFFFF;
+	border-radius: 50%;
+	background-color: #d6a52e;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 10px; 
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes{
+	font-size: 16px;
+	color: #4b4b4b;
+	margin-left: 25px;
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li{
+	list-style-type: none;
+	font-weight: bold;
+	margin-bottom: 15px;
+	position: relative;
+	line-height: 36px;
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li::before{
+	content: "";
+	width: 36px;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 0px;
+	border:1px solid #9e9e9e;
+	left: -42px;
+	border-radius: 50%;
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li:nth-child(1)::before{
+	background-image: url('../images/busssmall.png');
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li:nth-child(2)::before{
+	background-image: url('../images/guide.png');
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li:nth-child(3)::before{
+	background-image: url('../images/photographer.png');
+}
+main section.tourss section.toursinner article div.desc ul.tourincludes li:nth-child(4)::before{
+	background-image: url('../images/dinner.png');
+}
+main section.tourss section.toursinner article div.desc h6{
+	font-size: 15px;
+	color: #4b4b4b;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+main section.tourss section.toursinner article div.desc span.perperson{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #1577db;
+	height: 60px;
+	line-height: 60px;
+	box-sizing: border-box;
+	border: 2px solid rgb( 21, 119, 219 );
+	display: block;
+	float: left;
+	padding: 0 24px;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+}
+
+main section.tourss section.toursinner article div.desc span.perperson:hover{
+	color: #FFFFFF;
+	background-color: rgb( 21, 119, 219 );
+}
+
+main section.tourss section.toursinner article div.desc input#reservation{
+	height: 60px;
+    border: none;
+    background-color: #839726;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+main section.tourss section.toursinner article div.desc div.reserv{
+	display: none;
+}
+main section.tourss section.toursinner article div.desc div.reserv h5{
+	font-size: 20px;
+	color: #d61b1b;
+	margin: 0;
+	padding: 0;
+}
+main section.tourss section.toursinner article div.desc div.reserv form{
+	margin-top: 30px;
+}
+main section.tourss section.toursinner article div.desc div.reserv label{
+	display: block;
+    font-size: 13px;
+    color: #4b4b4b;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+main section.tourss section.toursinner article div.desc div.reserv input{
+	height: 40px;
+    border: 1px solid rgb( 183, 183, 183 );
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+main section.tourss section.toursinner article div.desc div.reserv input#captcha{
+	width: 135px;
+}
+main section.tourss section.toursinner article div.desc div.reserv table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main section.tourss section.toursinner article div.desc div.reserv table td:first-child{
+	padding-right: 15px;
+}
+main section.tourss section.toursinner article div.desc div.reserv table td:last-child{
+	padding-left: 15px;
+}
+main section.tourss section.toursinner article div.desc div.reserv table td[colspan='2']{
+	padding-left: 0;
+	padding-right: 0;
+}
+main section.tourss section.toursinner article div.desc div.reserv textarea{
+	width: 100%;
+	resize: none;
+	height: 90px;
+	outline: none;
+	border: 1px solid rgb( 183, 183, 183 );
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+main section.tourss section.toursinner article div.desc div.reserv img[alt='captcha']{
+	height: 40px;
+	float: left;
+	margin-right: 15px;
+}
+
+
+main section.tourss div.t{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+main section.tourss div.t article{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+main section.tourss div.t article div.logo{
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	background-color: red;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50%;
+}
+main section.tourss div.t article div.title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+main section.tourss div.t article h2{
+	font-size: 31.33px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+main section.tourss div.t article span{
+	font-size: 17.9px;
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: #414141;
+}
+main section.tourss div.t article.daily div.logo{
+	background-color: #d61b1b;
+	background-image: url('../images/dailywhite.png');
+}
+main section.tourss div.t article.daily div.title h2{
+	color: #d61b1b;
+}
+main section.tourss div.t article.mountain div.logo{
+	background-color: #839726;
+	background-image: url('../images/mountainwhite.png');
+}
+main section.tourss div.t article.mountain div.title h2{
+	color: #839726;
+}
+main section.tourss div.t article.wine div.logo{
+	background-color: #d6a52e;
+	background-image: url('../images/winewhite.png');
+}
+main section.tourss div.t article.wine div.title h2{
+	color: #d6a52e;
+}
+main section.tourss div.t article.winter div.logo{
+	background-color: #1577db;
+	background-image: url('../images/winterskiwhite.png');
+}
+main section.tourss div.t article.winter div.title h2{
+	color: #1577db;
+}
+
+main section.tourss div.cities{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+main section.tourss div.cities article{
+	margin: 20px;
+	width: 336px;
+	height: 310px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+main section.tourss div.cities article::before{
+	content: "";
+	width: 100%;
+	height: 245px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	border: 0px solid rgba(0,0,0,0.5);
+	transition: 0.3s;
+}
+main section.tourss div.cities article img{
+	width: 336px;
+	height: 245px;
+}
+main section.tourss div.cities article a{
+	text-decoration: none;
+	font-size: 28.56px;
+	color: #454545;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 65px;
+	line-height: 70px;
+	margin-top: -10px;
+	transition: 0.3s;
+}
+
+main section.tourss div.cities article:hover a{
+	color: #FFFFFF;
+	background-color: #839726;
+}
+
+main section.tourss div.cities article:hover::before{
+	border-width: 30px;
+}
